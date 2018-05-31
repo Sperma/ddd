@@ -86,6 +86,12 @@
                 <artifactId>heroku-maven-plugin</artifactId>
                 <version>2.0.3</version>
             </plugin>
+
+            <!-- Jetty plugin -->
+            <plugin>
+                <groupId>org.mortbay.jetty</groupId>
+                <artifactId>maven-jetty-plugin</artifactId>
+            </plugin>
         </plugins>
     </build>
     <dependencies>
